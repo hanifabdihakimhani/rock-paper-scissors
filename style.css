@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    padding: 24px;
+    background: burlywood;
+}
+
+.score-board {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+    background: green;
+}
+
+.score {
+    padding: 24px;
+}
+
+.btn {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 240px;
+}
+
+button {
+    font-size: 40px;
+    flex: 1 0 auto;
+    height: 180px;
+    width: 180px;
+    max-width: 180px;
+}
+
+#result {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    font-size: 54px;
+    background: bisque;
+}
